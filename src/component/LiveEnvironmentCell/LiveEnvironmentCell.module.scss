@@ -1,0 +1,13 @@
+.LiveEnvironmentCell {
+  border: 2px solid #18321f;
+  min-height: 18px;
+  min-width: 18px;
+}
+
+.LiveEnvironmentCell.infect{
+  background: red;
+}
+
+.LiveEnvironmentCell.live{
+  background: #86e007;
+}

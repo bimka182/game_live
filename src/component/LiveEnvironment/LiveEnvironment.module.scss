@@ -1,0 +1,19 @@
+.LiveEnvironment {
+  display: grid;
+  margin: 20px auto;
+  border: #708b3c 1px solid;
+  border-radius: 3px;
+}
+
+.LiveEnvironment.invisible {
+  display: none;
+}
+
+.LiveEnvironment.inactive {
+  pointer-events: none;
+  opacity: 0.4;
+}
+.LiveEnvironment.live {
+  pointer-events: none;
+  opacity: 0.9;
+}
